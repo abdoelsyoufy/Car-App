@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="activity_margin">16dp</dimen>
+    <dimen name="mainactivity_FAB_margin">15dp</dimen>
+    <dimen name="drawablepadding">5dp</dimen>
+    <dimen name="cardview_raduis">10dp</dimen>
+    <dimen name="cardview_elevation">10dp</dimen>
+    <dimen name="CustomCar_im_height">100dp</dimen>
+    <dimen name="CustomCar_tv_textszie_model" >18sp</dimen>
+    <dimen name="CustomCar_tv_textszie_color" >14sp</dimen>
+    <dimen name="CustomCar_tv_textszie_dpl" >14sp</dimen>
+
+    <dimen name="drawablepadding_tv">10dp</dimen>
+    <dimen name="CustomCar_color_width" >200dp</dimen>
+    <dimen name="tv_padding">16dp</dimen>
+</resources>

@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Cars</string>
+    <string name="infoActivity_car_color">color</string>
+    <string name="infoActivity_car_DistancePerLeter">DistancePerLeter</string>
+    <string name="infoActivity_car_description">Description</string>
+    <string name="infoActivity_car_details">Details</string>
+</resources>

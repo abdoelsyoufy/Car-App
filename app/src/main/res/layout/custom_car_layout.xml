@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    app:cardCornerRadius="@dimen/cardview_raduis"
+    app:cardElevation="@dimen/cardview_elevation"
+    app:cardUseCompatPadding="true"
+    android:layout_height="wrap_content">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/customCar_im"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/CustomCar_im_height"
+            android:scaleType="centerCrop"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:src="@drawable/image" />
+
+        <TextView
+            android:id="@+id/customcar_tv_model"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:drawablePadding="@dimen/drawablepadding_tv"
+            android:padding="@dimen/tv_padding"
+            android:textColor="@color/CustomCar_tv_textcolor"
+            android:textSize="@dimen/CustomCar_tv_textszie_model"
+android:layout_below="@id/customCar_im"
+            android:text="TextView" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/customcar_tv_model"
+            >
+
+
+            <TextView
+               android:id="@+id/customcar_tv_color"
+                android:layout_width="wrap_content"
+                android:drawableStart="@drawable/ic_baseline_color_lens_24"
+                android:drawablePadding="@dimen/drawablepadding_tv"
+                android:padding="@dimen/tv_padding"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="TextView" />
+
+            <TextView
+                android:id="@+id/customcar_tv_dpl"
+                android:layout_width="wrap_content"
+                android:padding="@dimen/tv_padding"
+                android:layout_height="wrap_content"
+                android:drawableStart="@drawable/ic_ev_station"
+                android:drawablePadding="@dimen/drawablepadding_tv"
+                android:layout_weight="1"
+                android:text="TextView" />
+        </LinearLayout>
+
+
+    </RelativeLayout>
+
+
+</androidx.cardview.widget.CardView>
+
+
